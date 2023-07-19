@@ -1,7 +1,7 @@
 import { connect, connection } from 'mongoose'
 const {
   // Attempts to connect to MongoDB and then tries to connect locally:)
-  MONGO_URI = 'mongodb+srv://marcoscamara:Arcicollar99@cluster0.yixznik.mongodb.net/?retryWrites=true&w=majority'
+  MONGO_URI = 'yourMongoDBKey'
 } = process.env
 
 const options: any = {
